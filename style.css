@@ -1,5 +1,130 @@
 body{
-    background: linear-gradient(rgb(0, 0, 0),rgb(239, 12, 12));
+    background-color: rgb(255, 255, 255);
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
+h1{
+    border-color: color(rgb(0, 0, 0));
+            font-style: soria;
+            }
+  
+ #advancedToggle {
+            background: none;
+            border: none;
+            color: #2196F3;
+            cursor: pointer;
+            padding: 5px;
+            font-size: 14px;
+            text-decoration: underline;
+            margin-bottom: 10px;
+        }   
+ 
+/* CSS */
+.search-container {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  max-width: 90%;
+  margin: 20px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  border-radius: 50px;
+  background: #fff;
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+
+.search-container:hover {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.15);
+}
+
+.search-input {
+  flex-grow: 1;
+  padding: 12px 20px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  border-radius: 50px 0 0 50px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.search-input::placeholder {
+  color: #aaa;
+}
+
+.search-input:focus {
+  background-color: #f0f4f8;
+}
+
+.search-button {
+  background-color: #005eff;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 0 50px 50px 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #0044cc;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
+  stroke: #fff;
+}
+       /* CSS: Modern Horizontal Tabs Style */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background: #f6f8fc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+  margin-top: 20px;
+}
+
+.nav-tabs {
+  list-style: none;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-tabs li {
+  margin: 0 8px;
+}
+
+.nav-tabs a {
+  display: block;
+  padding: 12px 24px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #19325f;
+  background: #e6ecfa;
+  border-radius: 6px 6px 0 0;
+  transition: background 0.2s, color 0.2s;
+}
+
+.nav-tabs a:hover,
+.nav-tabs a.active {
+  background: #185adb;
+  color: #fff;
+  font-weight: 600;
+}
+#h3{
+  font-size: 20px;
+  margin-left: 1400px;
+  margin-top: 0px;
+  border-radius: 7px;
+  color: #ffffff;
+}
+#pp1{
+  margin-left: 550px;
+}
+#sp1{
+  background-color: #aaa;
 }
